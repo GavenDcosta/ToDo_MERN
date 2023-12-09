@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text" : "read bible"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6573f683983b4cd59df4cdcd
+
+###
+PUT http://localhost:3001/todo/complete/6573f68f983b4cd59df4cdd1
